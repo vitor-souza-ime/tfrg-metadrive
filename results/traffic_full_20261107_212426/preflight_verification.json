@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "project_version": "2.0.0",
+  "source": "C:\\Users\\PC\\Downloads\\TFRG_MetaDrive_TrafficVerified_v2_0\\TFRG_MetaDrive_v2_0\\results\\traffic_preflight_20261107_212308",
+  "sha256": {
+    "episodes.csv": "618e7194122da0dcb74cee0ffd0dbd331b282164a887c9f064f0385d58d47072",
+    "steps.csv": "b81010b16b7e681f62af754a4b5cc4a30b241cd88c1f0d91e24083cc877090df",
+    "metadata.json": "c85dadaf31cd1e706b3b6c5a4101d4e790d795af6314855fa9366c4d1171488c"
+  },
+  "traffic_validation": {
+    "requested_densities": [
+      0.0,
+      0.18
+    ],
+    "comparisons": [
+      {
+        "density_a": 0.0,
+        "density_b": 0.18,
+        "matched_conditions": 12,
+        "identical_measured_episodes": 0,
+        "identical_fraction": 0.0,
+        "different_initial_fleet_observed": true
+      }
+    ]
+  },
+  "exposure": {
+    "verified_conditions": [
+      {
+        "map": "CSC",
+        "requested_density": 0.0,
+        "n_episodes": 6,
+        "min_initial_vehicles": 0,
+        "mean_active_vehicles": 0.0,
+        "mean_steps_with_vehicle_within_25m": 0.0
+      },
+      {
+        "map": "CSC",
+        "requested_density": 0.18,
+        "n_episodes": 6,
+        "min_initial_vehicles": 3,
+        "mean_active_vehicles": 3.0,
+        "mean_steps_with_vehicle_within_25m": 0.5753875769783552
+      },
+      {
+        "map": "SCS",
+        "requested_density": 0.0,
+        "n_episodes": 6,
+        "min_initial_vehicles": 0,
+        "mean_active_vehicles": 0.0,
+        "mean_steps_with_vehicle_within_25m": 0.0
+      },
+      {
+        "map": "SCS",
+        "requested_density": 0.18,
+        "n_episodes": 6,
+        "min_initial_vehicles": 3,
+        "mean_active_vehicles": 3.0,
+        "mean_steps_with_vehicle_within_25m": 0.5787804131345852
+      }
+    ]
+  }
+}

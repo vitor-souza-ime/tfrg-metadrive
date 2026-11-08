@@ -1,0 +1,58 @@
+{
+  "created_utc": "2026-11-08T00:24:26.214883+00:00",
+  "project_version": "2.0.0",
+  "protocol": {
+    "name": "full",
+    "maps": [
+      "CSC",
+      "SCS"
+    ],
+    "frictions": [
+      0.3,
+      0.4,
+      0.5,
+      0.6
+    ],
+    "densities": [
+      0.0,
+      0.18
+    ],
+    "seeds": [
+      9100,
+      9101,
+      9102,
+      9103,
+      9104,
+      9106,
+      9107,
+      9108,
+      9109,
+      9110,
+      9111,
+      9112,
+      9113,
+      9114,
+      9115,
+      9116,
+      9117,
+      9118
+    ],
+    "max_steps": 700,
+    "cruise_kmh": 50.0,
+    "methods": [
+      "fixed",
+      "curvature",
+      "adaptive"
+    ],
+    "expected_episodes": 864
+  },
+  "metadrive_version": "0.4.3",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "traffic_mode": "respawn",
+  "random_traffic": false,
+  "visual_is_excluded_from_main_analysis": true,
+  "note": "Observations from MetaDrive simulation, not physical road trials",
+  "controller_note": "All speed governors share the same IDM steering and traffic response; no friction oracle",
+  "data_definition": "Only completed episodes are committed to the CSV files"
+}
