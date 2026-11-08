@@ -1,0 +1,8 @@
+# Python 3.11 recommended. Tested by the user's earlier MetaDrive 0.4.3 setup.
+metadrive-simulator==0.4.3
+numpy>=1.26,<3
+pandas>=2.0,<4
+matplotlib>=3.7,<4
+scipy>=1.11,<2
+Pillow>=10,<13
+pytest>=8,<10
